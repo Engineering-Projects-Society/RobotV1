@@ -9,7 +9,7 @@
 // Global variables
 uint16_t adcValues[NUM_ADC_VALUES];  // Array to store ADC values
 uint32_t color = 0;  // Variable to store color value for NeoPixels
-bool isToggledOff = false;   // State variable to keep track if the functionality is toggled on or off
+bool isToggledOff = true;   // State variable to keep track if the functionality is toggled on or off
 bool lastButtonState = LOW;  // Last observed button state
 
 
